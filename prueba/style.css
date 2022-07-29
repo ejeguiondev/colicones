@@ -1,0 +1,76 @@
+body {
+     padding: 0;
+     margin:0;
+     height: 100vh;
+}
+
+#contenedor {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*player*/
+
+#player {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #f0ad4e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    position:absolute;
+    transform: rotate(-90deg);
+    top:800px;
+    left:700px;
+}
+
+.bala {
+    width: 5px;
+    height: 15px;
+    background:red;
+    position:absolute;
+}
+
+/*enemigos*/
+
+.En1 {
+    width: 100px;
+    height: 100px;
+    background:url(en1.png);
+    position:absolute;
+    left:500px;
+}
+
+
+.En2 {
+    width: 100px;
+    height: 100px;
+    background:url(En2.png);
+    position:absolute;
+}
+
+.En3 {
+    width: 100px;
+    height: 100px;
+    background:url(En3.png);
+    position:absolute;
+}
+
+/*contador*/
+
+#contador {
+    position:absolute;
+    width: 100px;
+    height: 50px;
+    background:white;
+    top:90%;
+    border:20px solid black;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color:black;
+    text-align: center;
+    text-justify: center;
+}

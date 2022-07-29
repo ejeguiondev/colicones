@@ -4,6 +4,9 @@ export default class direcciones {
         this.mleft = 0
         this.mtop = 0
         this.jugador = jugador
+        //no importa si los valores del height o width se cambian las coliciones seran igual
+        //y tambien si se cambia la posicion de los elementos
+        this.velocidad = 10
 
         this.obstaculo1 = obstaculo1
         this.obstaculo2 = obstaculo2

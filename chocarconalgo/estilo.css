@@ -23,7 +23,7 @@ body {
     position:absolute;
     background:rgba(255, 0, 0, 0.425);
     height: 300px;
-    width: 100px;
+    width: 200px;
     left:200px;
     top:200px;
 }
@@ -33,6 +33,6 @@ body {
     background:rgba(255, 0, 0, 0.425);
     height: 300px;
     width: 500px;
-    left:300px;
+    left:100px;
     top:600px;
 }
