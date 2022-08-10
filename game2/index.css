@@ -1,0 +1,223 @@
+body {
+    padding:0;
+    margin:0;
+    height: 100vh;
+}
+body::-webkit-scrollbar {
+    background:transparent;
+    width: 0px;
+    height: 0px;
+}
+#contenedor {
+    position:absolute;
+    height: 100%;
+    width: 4600px;
+    background:#44b8ca;
+}
+/*jugador*/
+#jugador {
+    background:url(idle.gif);
+    position:absolute;
+    height: 100px;
+    width: 90px;
+    left:250px;
+    top:800px;
+}
+/*global*/
+#suelo {
+    background:url(https://cdn.pixilart.com/photos/large/4e63b2cad95b50c.png);
+    position:absolute;
+    width: 4600px;
+    height: 100px;
+    top:900px;
+}
+#moveDocument{
+    position:fixed;
+    background:transparent;
+    height: 1000px;
+    width: 100px;
+    left:850px;
+}
+
+#moveDocument2 {
+    position:fixed;
+    background:transparent;
+    width: 100px;
+    height: 1000px;
+    left:150px;
+}
+
+#principioDocument {
+    position:absolute;
+    left:0px;
+    width:30px;
+    height: 1000px;
+    background: transparent;
+}
+
+/*obst*/
+
+#block1Ini {
+    width: 300px;
+    height: 150px;
+    background:url(https://cdn.pixilart.com/photos/large/4e63b2cad95b50c.png);
+    position:absolute;
+    top:650px;
+    left:700px;
+}
+
+#block2Ini {
+    width: 300px;
+    height: 500px;
+    background:url(https://cdn.pixilart.com/photos/large/4e63b2cad95b50c.png);
+    position:absolute;
+    top:500px;
+    left:1500px;
+}
+
+#block3Ini {
+    width: 100px;
+    height: 50px;
+    background:url(https://cdn.pixilart.com/photos/large/4e63b2cad95b50c.png);
+    position:absolute;
+    top:850px;
+    left:400px;
+}
+
+#block4Ini {
+    width: 100px;
+    height: 50px;
+    background:url(https://cdn.pixilart.com/photos/large/4e63b2cad95b50c.png);
+    position:absolute;
+    top:850px;
+    left:1900px;
+}
+
+#block5Ini {
+    width: 200px;
+    height: 300px;
+    background:url(https://cdn.pixilart.com/photos/large/4e63b2cad95b50c.png);
+    position:absolute;
+    top:600px;
+    left:2200px;
+}
+
+#block6Ini {
+    width: 300px;
+    height: 80px;
+    background:url(https://cdn.pixilart.com/photos/large/4e63b2cad95b50c.png);
+    position:absolute;
+    top:600px;
+    left:2600px;
+}
+/*enemigos*/
+
+#en1Ini {
+
+    top:800px;
+    left:1600px;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    background:url(slime.png);
+
+}
+
+#en2Ini {
+
+    top:800px;
+    left:500px;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    background:url(slime.png);
+
+}
+/*ataque espada*/
+
+#atacSpada {
+
+    background:transparent;
+    width:100px;
+    height: 100px;
+    position:absolute;
+
+}
+
+/*life*/
+
+#life1 {
+    position:fixed;
+}
+#heart1 {
+    width: 70px;
+    height: 70px;
+}
+
+#life2 {
+    left:70px;
+    position:fixed;
+}
+#heart2 {
+    width: 70px;
+    height: 70px;
+}
+
+#life3 {
+    position:fixed;
+    left:140px;
+}
+#heart3 {
+    width: 70px;
+    height: 70px;
+}
+
+/*monedas y de mas*/
+
+.coin {
+    background:url(coin.gif);
+    width: 50px;
+    height: 50px;
+    position:absolute;
+}
+
+#coin1 {
+    top:800px;
+    left:700px;
+}
+
+#coin2 {
+    top:800px;
+    left:800px;
+}
+
+#coin3 {
+    top:800px;
+    left:900px;
+}
+
+#coin4 {
+    top:800px;
+    left:1000px;
+}
+
+#contenedorM {
+    top:80px;
+    position:fixed;
+    left:10px;
+    display:grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    align-items: center;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+
+#heartG1 {
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top:300px;
+    left:500px;
+}
