@@ -1,0 +1,158 @@
+body {
+    padding:0;
+    margin:0;
+    height: 100vh;
+}
+body::-webkit-scrollbar {
+    background:transparent;
+    width: 0px;
+    height: 0px;
+}
+#contenedor {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*jugador*/
+#jugador {
+    background:black;
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    left:100px;
+}
+/*global*/
+#suelo {
+    background:red;
+    position:absolute;
+    width: 4600px;
+    height: 100px;
+    top:900px;
+}
+
+#finalDocument{
+    position:fixed;
+    background:transparent;
+    height: 1000px;
+    width: 100px;
+    left:700px;
+}
+
+#principioDocument {
+    position:fixed;
+    left:0px;
+    width:30px;
+    height: 1000px;
+    background: transparent;
+}
+
+/*obst*/
+
+/*blockS*/
+.blockS {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background:yellow;
+}
+
+#bloqueS1 {
+    top:600px;
+    left: 1000px;
+}
+
+#bloqueS2 {
+    top:600px;
+    left: 1300px;
+}
+
+#bloqueS3 {
+    top:600px;
+    left: 1500px;
+}
+
+#bloqueS4 {
+    top:100px;
+    left: 1400px;
+}
+
+
+/*block*/
+#obst {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background:red;
+}
+
+#block1 {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    top:600px;
+    background:red;
+    left: 1200px;
+}
+
+#block2 {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    top:600px;
+    background:red;
+    left: 1400px;
+}
+
+#block3 {
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    top:600px;
+    background:red;
+    left: 1600px;
+}
+
+/*caño*/
+
+.caño {
+    background:green;
+    position:absolute;
+}
+
+#caño1 {
+    left:2200px;
+    top:700px;
+    width: 150px;
+    height: 200px;
+}
+
+#caño2 {
+    left:2800px;
+    top:500px;
+    width: 150px;
+    height: 400px;
+}
+
+#caño3 {
+    left:3500px;
+    top:400px;
+    width: 150px;
+    height: 500px;
+}
+
+#caño4 {
+    left:4400px;
+    top:600px;
+    width: 150px;
+    height: 300px;
+}
+
+/*hongo*/
+
+.hongo {
+    width: 50px;
+    height: 50px;
+    background:greenyellow;
+    position:absolute;
+}
